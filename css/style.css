@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #11111f;
+}
+
+#stopwatch {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 24vw;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  color: #fff;
+}
+
+.shortcuts {
+  color: #fff;
+  /* border: 1px solid red; */
+  width: 198px;
+  margin: 3rem auto;
+}
+
+.shortcuts p {
+  padding: 10px;
+}
+
+.shortcuts p span {
+  display: inline-block;
+  border: 1px solid #3e3e69;
+  background-color: #18182b;
+  border-radius: 5px;
+  padding: 5px 10px;
+  padding-top: 8px;
+  margin-right: 10px;
+}
